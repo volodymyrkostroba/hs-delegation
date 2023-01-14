@@ -1,0 +1,23 @@
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    padding: 20px;
+    border: 2px #000 solid;
+}
+
+.tags__button{
+    all: unset;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px #000 solid;;
+}
+
+.js-active{
+    background-color: blue;
+}
